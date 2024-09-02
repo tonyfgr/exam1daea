@@ -65,7 +65,7 @@ public class RecomendacionService : IRecomendacionService
     public async Task<IEnumerable<Recomendacion>> GetRecomendacionesAsync(string searchTerm)
     {
         var response = await _httpClient.GetStringAsync(
-            $"http://ip172-18-0-4-crafn8aim2rg00dvbln0-5000.direct.labs.play-with-docker.com/recomendacion/{searchTerm}");
+            $"http://ip172-18-0-90-cras92iim2rg00bmqong-5000.direct.labs.play-with-docker.com/recomendacion/{searchTerm}");
         var data = JArray.Parse(response);
 
         var recomendacions = new List<Recomendacion>();
