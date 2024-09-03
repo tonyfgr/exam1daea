@@ -2,7 +2,7 @@
 WORKDIR="/tmp/mymicroservice"
 
 # Clonar el repositorio
-git clone https://github.com/MariaCutipa/ExamenDAEA.git $WORKDIR
+git clone https://github.com/tonyfgr/exam1daea.git $WORKDIR
 
 # Cambiar al directorio del repositorio
 cd $WORKDIR/ApiCsharp
