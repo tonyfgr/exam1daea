@@ -5,7 +5,7 @@ KAFKA_IMAGE="kafka-container"
 WORKDIR="/tmp/kafka"
 
 # Clonar el repositorio
-git clone https://github.com/MariaCutipa/ExamenDAEA.git $WORKDIR
+git clone https://github.com/tonyfgr/exam1daea.git $WORKDIR
 
 # Crear una red Docker para Kafka y Zookeeper
 docker network create $NETWORK_NAME
