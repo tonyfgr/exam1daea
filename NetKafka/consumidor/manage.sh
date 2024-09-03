@@ -2,7 +2,7 @@
 WORKDIR="/tmp/kafka-consumer"
 
 # Clonar el repositorio
-git clone https://github.com/MariaCutipa/ExamenDAEA.git $WORKDIR
+git clone https://github.com/tonyfgr/exam1daea.git $WORKDIR
 
 # Cambiar al directorio del proyecto que contiene el Dockerfile
 cd $WORKDIR/NetKafka/consumidor
